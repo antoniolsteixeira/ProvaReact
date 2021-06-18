@@ -37,6 +37,7 @@ const Dashboard: React.FC = () => {
     };
 
     await api.post('worldcup', novoCadastro);
+    form.reset();
   }
 
   function deleteCadastro(id: string) {
